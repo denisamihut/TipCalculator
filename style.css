@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial;
+    background-color: white;
+  }
+  
+  .calculator {
+    background-color: #47B5FF;
+    padding: 2rem;
+    border-radius: 2px;
+    margin: 4rem 0;
+    width: 400px;
+  }
+  
+  .field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .field_input {
+    margin-left:10px;
+  }
+  #calculate {
+    background-color: #06283D;
+    color: white;
+    border: none;
+    padding: 1rem 1.4rem;
+    font-size: 1.1rem;
+    float: right;
+  }
+  
+  .info {
+    clear: both;
+    display: none;
+    font-size: 1.4rem;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PW | Lab1 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+
+</head>
+<div class="calculator">
+    <h1 class="calculator_title">Tip Calculator</h1>
+    <div class="field">
+        <label for="amount" class="field_label">Amount</label>
+        <input type="text" name="amount" id="amount" placeholder="$" class="field_input">
+        </input>
+    </div>
+    <div class="field">
+        <label for="tip" class="field_label">Tip</label>
+        <select name="tip" id="tip" class="field_input">
+            <option value="0" selected>No tip</option>
+            <option value="5">5%</option>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+        </select>
+    </div>
+    
+    <button id="calculate">Calculate</button>
+    <div class="info">
+        <p class="info_tip"></p>
+        <p class="info_total"></p>
+    </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</html>
